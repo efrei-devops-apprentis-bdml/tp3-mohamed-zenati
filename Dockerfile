@@ -1,4 +1,3 @@
-FROM python:3.8
 FROM python:alpine3.16
 
 # set the working directory in the container
