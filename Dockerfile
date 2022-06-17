@@ -1,7 +1,7 @@
 FROM python:alpine3.16
 
 # set the working directory in the container
-WORKDIR C:/Users/zmoha/OneDrive/Documents/spark-df/tp3-mohamed-zenati
+WORKDIR ..
 
 COPY app.py ./
 
