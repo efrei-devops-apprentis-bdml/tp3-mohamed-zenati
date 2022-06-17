@@ -1,7 +1,5 @@
 FROM python:3.8
-
-RUN apt update
-RUN apt install python3 -y
+FROM python:alpine3.16
 
 # set the working directory in the container
 WORKDIR C:/Users/nostr/OneDrive/Documents/Efrei/M1/devops/tp1
